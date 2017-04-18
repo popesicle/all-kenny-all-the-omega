@@ -1,0 +1,9 @@
+<!-- Kennys template -->
+<h1>LOOK AT ALL THESE KENNYS</h1>
+<ul>
+  {{#each model as |turtle|}}
+    <li>
+      <img src="{{turtle.images.downsized.url}}">
+    </li>
+  {{/each}}
+</ul>

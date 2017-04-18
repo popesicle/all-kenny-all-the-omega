@@ -1,5 +1,6 @@
 {
   "name": "all-kenny-all-the-omega",
   "dependencies": {
+    "bootstrap": "^3.3.7"
   }
 }

@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('kennys', {path: '/kennys/:params'});
 });
 
 export default Router;

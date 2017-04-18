@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'all-kenny-all-the-omega',
+    podModulePrefix: 'all-kenny-all-the-omega/routes',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
